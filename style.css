@@ -1,0 +1,21 @@
+body{
+    background-color:rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 2rem;
+}
+
+.navbar a {
+    color: aliceblue;
+}
+
+.navbar a:hover {
+    color: crimson;
+}
