@@ -1,21 +1,36 @@
 body{
-    background-color:rgb(255, 255, 255);
-    text-decoration: none;
+    background-color: #ffffff;
     margin: 0;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
 }
 
+/* reset text-decoration on links explicitly (not on body) */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Use nav.navbar to be explicit if you add the class in HTML */
+nav.navbar,
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
-    padding: 2rem;
+    background-color: #000000;
+    padding: 1.5rem 3rem; /* vertical | horizontal */
+    box-sizing: border-box;
 }
 
 .navbar a {
     color: aliceblue;
+    margin: 0 1.25rem;
+    transition: color 150ms ease-in-out;
 }
 
-.navbar a:hover {
+.navbar a:hover,
+.navbar a:active {
     color: crimson;
 }
+
+
