@@ -40,7 +40,9 @@ nav {
 .home-text {
   font-size: 50px;
   text-align:center;
-  margin: 300px 300px; 
+  margin: 200px 100px; 
 }
-
-
+.home-text h1 {
+    color: rgb(117, 7, 7);
+    font-size: 70px
+}
