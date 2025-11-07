@@ -37,12 +37,8 @@ nav {
 }
 
 
-.home-text {
-  font-size: 50px;
-  text-align:center;
-  margin: 100px 300 px; 
+.funciona h1 {
+    background-color: rgb(117, 7, 7);
 }
-.home-text h1 {
-    color: rgb(117, 7, 7);
-    font-size: 70px
-}
+
+
