@@ -44,7 +44,11 @@ nav {
 .home-text {
   font-size: 50px;
   text-align:center;
+<<<<<<< HEAD
   margin: 100px 270px; 
+=======
+  margin: 100px 300 px; 
+>>>>>>> fa8c426b59180eb06293c54bed9d31c3b0083a10
 }
 .home-text h1 {
     font-family: "Fascinate Inline", system-ui;
