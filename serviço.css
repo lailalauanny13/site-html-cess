@@ -27,22 +27,43 @@ nav {
 }
 
 .navbar a {
+    font-family: "Lacquer", system-ui;
+    font-size: 1.2rem;
     color: aliceblue;
-    margin: 0 1.25rem;
+    margin: 0 2rem;
     transition: color 150ms ease-in-out;
 }
 
 .navbar a:hover {
+    transition: 0.5s;
     color: crimson;
+    font-size: 1.28rem;
 }
 
 
 .home-text {
   font-size: 50px;
   text-align:center;
-  margin: 200px 100px; 
+  margin: 100px 270px; 
 }
 .home-text h1 {
+    font-family: "Fascinate Inline", system-ui;
     color: rgb(117, 7, 7);
     font-size: 70px
+}
+
+.home-text p {
+    font-family: "WDXL Lubrifont TC", sans-serif;
+}
+
+.image img {
+    border: 5px solid #7e0b0b;
+    border-radius: 16px;
+}
+
+.title h1 {
+    font-family: "Fascinate Inline", system-ui;
+    color: rgb(117, 7, 7);
+    font-size: 70px;
+    border-bottom: 5px solid rgb(117, 7, 7);
 }

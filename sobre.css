@@ -27,13 +27,17 @@ nav {
 }
 
 .navbar a {
+    font-family: "Lacquer", system-ui;
+    font-size: 1.2rem;
     color: aliceblue;
-    margin: 0 1.25rem;
+    margin: 0 2rem;
     transition: color 150ms ease-in-out;
 }
 
 .navbar a:hover {
+    transition: 0.5s;
     color: crimson;
+    font-size: 1.28rem;
 }
 
 
@@ -41,6 +45,13 @@ nav {
   font-size: 50px;
   text-align:center;
   margin: 100px 80px; 
+}
+
+.title h1 {
+    font-family: "Fascinate Inline", system-ui;
+    color: rgb(117, 7, 7);
+    font-size: 70px;
+    border-bottom: 5px solid rgb(117, 7, 7);
 }
 
 
