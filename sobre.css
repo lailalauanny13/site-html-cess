@@ -43,14 +43,15 @@ nav.navbar, nav {
 .home-text {
   font-size: 50px;
   text-align:center;
-  margin: 100px 80px; 
+  margin: 50px 180px; 
+ font-family: "WDXL Lubrifont TC", sans-serif;
 }
 
-.title h1 {
+ .home-text h1 {
     font-family: "Fascinate Inline", system-ui;
     color: rgb(117, 7, 7);
-    font-size: 70px;
-    border-bottom: 5px solid rgb(117, 7, 7);
+    font-size: 70px
 }
+
 
 

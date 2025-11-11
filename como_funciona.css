@@ -37,7 +37,17 @@ nav.navbar, nav {
 
 
 .funciona h1 {
-    background-color: rgb(117, 7, 7);
+  font-family: "Fascinate Inline", system-ui;
+    color: rgb(117, 7, 7);
+    font-size: 70px;
+    margin: 20px 590px; 
+}
+
+.funciona p {
+   font-size: 50px;
+   text-align:center;
+   margin:250px 100px; 
+   margin: 250px 300 px; 
 }
 
 
