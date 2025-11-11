@@ -39,30 +39,12 @@ nav.navbar, nav {
 }
 
 
-.home-text {
-   font-size: 50px;
-   text-align:center;
-   margin: 100px 270px; 
-   margin: 100px 300 px; 
-}
-.home-text h1 {
-    font-family: "Fascinate Inline", system-ui;
-    color: rgb(117, 7, 7);
-    font-size: 70px
-}
-
-.home-text p {
-    font-family: "WDXL Lubrifont TC", sans-serif;
-}
-
-.image img {
-    border: 5px solid #7e0b0b;
-    border-radius: 16px;
-}
-
-.title h1 {
-    font-family: "Fascinate Inline", system-ui;
+ .texto h1 {
+   font-family: "Fascinate Inline", system-ui;
     color: rgb(117, 7, 7);
     font-size: 70px;
-    border-bottom: 5px solid rgb(117, 7, 7);
+    margin: 400px 650px;
 }
+
+
+

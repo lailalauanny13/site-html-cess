@@ -26,6 +26,8 @@ nav.navbar, nav {
 }
 
 .navbar a {
+    font-family: "Lacquer", system-ui;
+    font-size: 1.2rem;
     color: aliceblue;
     margin: 0 1.25rem;
     transition: color 150ms ease-in-out;
@@ -38,16 +40,19 @@ nav.navbar, nav {
 
 .funciona h1 {
   font-family: "Fascinate Inline", system-ui;
+  align-items: center;
+  justify-content: center;
     color: rgb(117, 7, 7);
-    font-size: 70px;
-    margin: 20px 590px; 
+    font-size: 65px;
+    margin: 20px 700px; 
 }
 
 .funciona p {
    font-size: 50px;
    text-align:center;
-   margin:250px 100px; 
-   margin: 250px 300 px; 
+   justify-content: center;
+   margin:90px 250px; 
+   font-family: "WDXL Lubrifont TC", sans-serif;
 }
 
 
