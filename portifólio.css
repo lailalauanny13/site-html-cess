@@ -38,6 +38,12 @@ nav.navbar, nav {
     color: crimson;
 }
 
+.imagens img {
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 
 

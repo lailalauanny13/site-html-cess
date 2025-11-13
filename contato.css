@@ -1,10 +1,8 @@
-body{
-    background-color:rgb(255, 255, 255);
+body {
+    background: url(Screenshots/ctts.png);
+    background-size: cover;
     text-decoration: none;
-    background-color: #ffffff;
     margin: 0;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale;
 }
 
 
@@ -40,11 +38,41 @@ nav.navbar, nav {
 
 
  .texto h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
    font-family: "Fascinate Inline", system-ui;
-    color: rgb(117, 7, 7);
+    color: #750707;
     font-size: 70px;
-    margin: 400px 650px;
+    margin: 160px 0 70px 0;
 }
 
+.linha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 80px 0;
+    outline: 2px solid #000000;
+}
+
+.linha img {
+    background-color: #ffffff;
+    position: fixed;
+}
+
+.contatos div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contatos a, .contatos p {
+    font-size: 35px;
+    margin-left: 40px;
+}
+
+.instagram {
+    margin-bottom: 15px;
+}
 
 

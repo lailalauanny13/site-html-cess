@@ -52,5 +52,10 @@ nav.navbar, nav {
     font-size: 70px
 }
 
+.larpintmax img {
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0.3, 0.3, 0.3, 0.3);
+}
+
 
 
