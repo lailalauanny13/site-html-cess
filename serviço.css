@@ -1,4 +1,4 @@
-body{
+ body{
     background-color:rgb(255, 255, 255);
     text-decoration: none;
     background-color: #ffffff;
@@ -42,8 +42,7 @@ nav.navbar, nav {
 .home-text {
    font-size: 50px;
    text-align:center;
-   margin: 100px 270px; 
-   margin: 100px 300 px; 
+   margin: 50px 190px; 
 }
 .home-text h1 {
     font-family: "Fascinate Inline", system-ui;

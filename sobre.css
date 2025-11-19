@@ -1,3 +1,8 @@
+body {
+    background: url(Screenshots/tintaa.png);
+    background-size: cover;
+    text-decoration: none;
+}
 body{
     background-color:rgb(255, 255, 255);
     text-decoration: none;
@@ -50,12 +55,8 @@ nav.navbar, nav {
     font-family: "Fascinate Inline", system-ui;
     color: rgb(117, 7, 7);
     font-size: 70px
-}
-
-.larpintmax img {
-    border-radius: 20px;
-    box-shadow: 5px 5px 15px rgba(0.3, 0.3, 0.3, 0.3);
-}
+ }
+  
 
 
 
