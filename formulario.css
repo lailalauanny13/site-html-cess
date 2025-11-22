@@ -1,8 +1,9 @@
 body {
-    background: url(Screenshots/tinta.png);
+    background: url(Screenshots/tintaa.png);
     background-size: cover;
     text-decoration: none;
     margin: 0;
+    overflow-y: hidden;
 }
  body{
     background-color:rgb(255, 255, 255);
@@ -45,10 +46,10 @@ nav.navbar, nav {
 }
 
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: "poppins", sans-serif;
+    box-sizing: border-box;
 
 }
 
@@ -135,14 +136,13 @@ nav.navbar, nav {
     color: #e74c3c;
 }
 
-.container img{
-    width: 700px;
+.img{
+    width: 750px;
     height: auto;
     max-width: 1000%;
     border-radius: 10px;
     margin-top: 100px;
-    margin-left: px;
-
+    border-radius: 25px;
 }
 
 .form-area h2 {
@@ -151,22 +151,26 @@ nav.navbar, nav {
     font-size: 28px;
 }
 
-.form {
-    width: 50%;
-    max-width:600px ;
+.container{
+    width: 60%;
+    max-width:700px ;
     margin: 20px;
-    padding-top: 0;
-    margin-top: 40px;
+    padding-top: 0px;
     margin-left:800px;
+    position: relative;
+    top: -500px ;
+    background-color: #ffff;
+    padding: 30px 50px ;
+    border-radius: 15px;
 }
 
 .titulo{
    margin-bottom: 0;
    padding-bottom: 0;
    text-align: center;
-   margin-top: -450px;
+   top: -60px;
    font-size: 40px;
-   margin-left: 340px;
    color:rgb(117, 7, 7); 
    font-family: "Fascinate Inline", system-ui;
 }
+
