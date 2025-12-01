@@ -48,10 +48,13 @@ nav.navbar, nav {
     border-radius: 16px;
     width: 300px;
     gap: 20px;
+    transition: transform .3s ease;
     box-shadow:  0 10px 40px 5px rgba(0,0,0,0.80);
 }
 
-
+.image img:hover{
+    transform: scale(1.1);
+}
 
 
 
