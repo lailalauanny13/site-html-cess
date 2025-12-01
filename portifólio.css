@@ -1,5 +1,9 @@
+body {
+    background: url(Screenshots/tintaa.png);
+    background-size: cover;
+    text-decoration: none;
+}
 body{
-    background-color:rgb(255, 255, 255);
     text-decoration: none;
     background-color: #ffffff;
     margin: 0;
@@ -20,7 +24,6 @@ nav.navbar, nav {
     justify-content: space-between;
     background-color: black;
     padding: 2rem;
-    background-color: #000000;
     padding: 1.5rem 3rem; 
     box-sizing: border-box;
 }
@@ -45,6 +48,7 @@ nav.navbar, nav {
     border-radius: 16px;
     width: 300px;
     gap: 20px;
+    box-shadow:  0 10px 40px 5px rgba(0,0,0,0.80);
 }
 
 

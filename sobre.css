@@ -4,7 +4,6 @@ body {
     text-decoration: none;
 }
 body{
-    background-color:rgb(255, 255, 255);
     text-decoration: none;
     background-color: #ffffff;
     margin: 0;
@@ -25,7 +24,6 @@ nav.navbar, nav {
     justify-content: space-between;
     background-color: black;
     padding: 2rem;
-    background-color: #000000;
     padding: 1.5rem 3rem; 
     box-sizing: border-box;
 }
@@ -56,6 +54,8 @@ nav.navbar, nav {
     color: rgb(117, 7, 7);
     font-size: 70px
  }
+
+
   
 
 

@@ -1,21 +1,22 @@
 const form = document.getElementById('form');
 const nome = document.getElementById('nome');
-const Email = document.getElementById('Email');
-const Número = document.getElementById('Número');
-const Mensagem = document.getElementById('Mensagem');
+const email = document.getElementById('email');
+const numero = document.getElementById('numero');
+const mensagem = document.getElementById('mensagem');
 
 form.addEventListener('submit', (e) => {
    e.preventDefault();
 
 
-   chekinputs();
+   checkInputs();
 });
 
-function chekinputs() {
-    const nomeValue = nome.value;
-    const EmailValue = Email.value;
-    const NúmeroValue = Número.value;
-    const MensagemValue = Mensagem.value;
+function checkInputs() {
+   const nomeValue = nome.value.trim();
+   const emailValue = email.value.trim();
+   const numeroValue = numero.value.trim();
+   const mensagemValue = mensagem.value.trim();
+
    
     if (nomeValue === '') {
         setErrorFor(nome, 'O nome é obrigatório')
@@ -23,26 +24,28 @@ function chekinputs() {
     } else{
         setSuccessFor(nome);
     }
-    if (EmailValue === '') {
-        setErrorFor(Email, 'O email é obrigatório')
-   } else if ( !checkEmail(EmailValue)) {
-        setErrorFor(Email, 'Por favor insira um email válido');
+    if (emailValue === '') {
+        setErrorFor(email, 'O email é obrigatório')
+   } else if ( !checkEmail(emailValue)) {
+        setErrorFor(email, 'Por favor insira um email válido');
 
    } else{
-        setSuccessFor(Email);
+        setSuccessFor(email);
    }
 
-    if (NúmeroValue === '') {  
-        setErrorFor(Número, 'O número é obrigatório')
+    if (numeroValue === '') {  
+       setErrorFor(numero, 'O número é obrigatório');
+   } else if (!/^\d+$/.test(numeroValue)) {  
+       setErrorFor(numero, 'Somente números são permitidos');  
+   } else {
+       setSuccessFor(numero);
+   }
 
-    } else{
-        setSuccessFor(Número);
-    }
 
-    if (MensagemValue === '') {
-        setErrorFor(Mensagem, 'A mensagem é obrigatória')
+    if (mensagemValue === '') {
+        setErrorFor(mensagem, 'A mensagem é obrigatória')
     } else {
-        setSuccessFor(Mensagem);
+        setSuccessFor(mensagem);
     }
 
     const formControls = form.querySelectorAll('.form-control');
@@ -75,3 +78,4 @@ function setSuccessFor(input) {
 function checkEmail(Email) {
     return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(Email);
 }
+

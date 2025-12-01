@@ -1,17 +1,19 @@
-body {
-    background: url(Screenshots/tintaa.png);
-    background-size: cover;
-    text-decoration: none;
+
+* {
     margin: 0;
-    overflow-y: hidden;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
 }
- body{
-    background-color:rgb(255, 255, 255);
-    text-decoration: none;
-    background-color: #ffffff;
+
+
+body {
+    background: url("Screenshots/tintaa.png") no-repeat center center fixed;
+    background-size: cover;
     margin: 0;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 
@@ -21,14 +23,12 @@ a {
 }
 
 
-nav.navbar, nav {
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: black;
-    padding: 2rem;
-    background-color: #000000;
-    padding: 1.5rem 3rem; 
+    padding: 1.5rem 3rem;
     box-sizing: border-box;
 }
 
@@ -37,112 +37,59 @@ nav.navbar, nav {
     font-size: 1.2rem;
     color: aliceblue;
     margin: 0 2rem;
-    transition: color 150ms ease-in-out;
+    transition: color 0.3s ease;
 }
 
 .navbar a:hover {
-    transition: 0.5s;
     color: crimson;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "poppins", sans-serif;
-    box-sizing: border-box;
-
-}
-
-.body {
-    width: 100%;
-    min-height: 100vh;
-    justify-content: center;
-    align-items: center;
 }
 
 
 .header {
-   color: rgb(117, 7, 7); 
-   padding: 20px;
-   font-family: "Fascinate Inline", system-ui;
-}
-    
-
-.form-control{
-    margin-bottom: 10px;
-    padding-bottom: 20px;
-    position: relative;
+    color: rgb(117, 7, 7);
+    padding: 20px;
+    font-family: "Fascinate Inline", system-ui;
 }
 
-.form-control label{
-    margin-bottom: 5px;
-    display: inline-block;
+.titulo {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(117, 7, 7);
+    font-family: "Fascinate Inline", system-ui;
 }
 
-.form-control input{
-    border: 2px solid #f0f0f0;
-    display: block;
-    border-radius: 10px;
-    font-size: 14px;
-    width: 100%;
-}
 
-.form-control i {
-    position: absolute;
-    top: 45px;
-    right: 10px;
-    visibility: hidden;
-}
-
-.form-control small{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    visibility: hidden;
-}
-
-.form button {
-    background-color:rgb(117, 7, 7); 
-    border: 2px solid rgb(117, 7, 7);
-    color: #fff;
-    font-size: 14px;
-    border-radius: 10px;
-
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-}
-
-.form-control.success input{
-  border-color: #2ecc71;  
-}
-
-.form-control.error input{
-  border-color: #e74c3c;  
-}
-
-.form-control.success i.fa-check-circle{
-    color: #2ecc71;
-    visibility: visible;
-} 
-
-.form-control.error i.fa-exclamation-circle{
-    color:  #e74c3c;  
-    visibility: visible;
-} 
-
-.form-control.error small{
-    visibility: visible;
-    color: #e74c3c;
-}
-
-.img{
+.img {
     width: 750px;
     height: auto;
-    max-width: 1000%;
-    border-radius: 10px;
+    max-width: 100%;
     margin-top: 100px;
     border-radius: 25px;
+    box-shadow: 0 10px 40px 5px rgba(0,0,0,0.80);
+}
+
+
+.content-wrapper {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center; 
+    gap: 40px; 
+    margin-top: 40px;
+}
+
+
+
+.container {
+    width: 60%;
+    max-width: 700px;
+    background-color: #ffffff;
+    padding: 5px 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+    margin-top: -500px;  
+    margin-left: 800px;  
 }
 
 .form-area h2 {
@@ -151,26 +98,111 @@ nav.navbar, nav {
     font-size: 28px;
 }
 
-.container{
-    width: 60%;
-    max-width:700px ;
-    margin: 20px;
-    padding-top: 0px;
-    margin-left:800px;
+/* campo de cada input */
+.form-control {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     position: relative;
-    top: -500px ;
-    background-color: #ffff;
-    padding: 30px 50px ;
-    border-radius: 15px;
 }
 
-.titulo{
-   margin-bottom: 0;
-   padding-bottom: 0;
-   text-align: center;
-   top: -60px;
-   font-size: 40px;
-   color:rgb(117, 7, 7); 
-   font-family: "Fascinate Inline", system-ui;
+/* label */
+.form-control label {
+    margin-bottom: 5px;
+    display: inline-block;
 }
 
+/* inputs */
+.form-control input {
+    border: 2px solid #f0f0f0;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 5px 8px;
+    height: 20px;
+    
+}
+
+
+.form-control textarea {
+    border: 2px solid #f0f0f0;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    height: 70px; 
+    padding: 6px;
+    resize: none;
+  
+}
+
+/* Ícones */
+.form-control i {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    visibility: hidden;
+}
+
+/* Mensagem de erro */
+.form-control small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+/* Botão */
+.form button {
+    background-color: rgb(117, 7, 7);
+    border: 2px solid rgb(117, 7, 7);
+    color: #fff;
+    font-size: 14px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.form button:active {
+    background-color: #000000;
+}
+
+/* --------- ESTILOS DE VALIDAÇÃO --------- */
+
+.form-control.success input,
+.form-control.success textarea {
+    border-color: #2ecc71;
+}
+
+.form-control.error input,
+.form-control.error textarea {
+    border-color: #e74c3c;
+}
+
+.form-control.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-control.error small {
+    visibility: visible;
+    color: #e74c3c;
+}
+.container {
+    padding: 20px 40px;  /* menos altura */
+}
+
+.form-control input {
+    padding: 8px;  /* inputs menores */
+}
+
+.form-control textarea {
+    height: 30px;  /* textarea menor */
+    padding: 8px;
+    resize: none;
+}

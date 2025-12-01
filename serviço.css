@@ -1,5 +1,4 @@
 body{
-    background-color:rgb(255, 255, 255);
     text-decoration: none;
     background-color: #ffffff;
     margin: 0;
@@ -20,7 +19,6 @@ nav.navbar, nav {
     justify-content: space-between;
     background-color: black;
     padding: 2rem;
-    background-color: #000000;
     padding: 1.5rem 3rem; 
     box-sizing: border-box;
 }
@@ -57,6 +55,8 @@ nav.navbar, nav {
 .image img {
     border: 5px solid #7e0b0b;
     border-radius: 16px;
+    box-shadow:  0 10px 40px 5px rgba(0,0,0,0.80);
+
 }
 
 .title h1 {
