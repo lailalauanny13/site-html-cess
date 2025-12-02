@@ -212,3 +212,27 @@ footer {
     margin-top: 10rem;
     font-family: "WDXL Lubrifont TC", sans-serif;
 }
+
+.whatsapp-float {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    z-index: 999;
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-float img {
+    width: 38px;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
