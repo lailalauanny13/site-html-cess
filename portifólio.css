@@ -39,7 +39,10 @@ nav.navbar, nav {
 .navbar a:hover {
     transition: 0.5s;
     color: crimson;
+
 }
+
+
 
 .imagens img {
     align-items: center;
@@ -52,9 +55,8 @@ nav.navbar, nav {
     box-shadow:  0 10px 40px 5px rgba(0,0,0,0.80);
 }
 
-.image img:hover{
-    transform: scale(1.1);
+.imagens img:hover {
+    transform: scale(1.08);
 }
-
 
 
